@@ -10,7 +10,17 @@
         }
       }
     },
-    "version": "3.91.0",
+    "appTesting": {
+      "object": {
+        "testSuites": {
+          "array": []
+        },
+        "tests": {
+          "object": {}
+        }
+      }
+    },
+    "version": "3.102.0",
     "experimentalDataTabEnabled": true
   }
 }
