@@ -172,6 +172,5 @@
         waitType="debounce"
       />
     </Button>
-    <Button id="button2" text="Button" />
   </Frame>
 </App>
