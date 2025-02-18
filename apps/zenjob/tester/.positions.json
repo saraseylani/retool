@@ -1,0 +1,12 @@
+{
+  "table1": {
+    "row": 7.2,
+    "height": 8,
+    "width": 8
+  },
+  "text1": {
+    "row": 3.6,
+    "col": 1,
+    "height": 1
+  }
+}
