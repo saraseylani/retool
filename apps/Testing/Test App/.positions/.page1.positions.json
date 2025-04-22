@@ -1,4 +1,10 @@
 {
+  "button1": {
+    "row": 11.2,
+    "col": 9,
+    "height": 1,
+    "width": 2
+  },
   "image1": {
     "row": 5.4,
     "col": 9
