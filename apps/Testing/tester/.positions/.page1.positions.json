@@ -1,0 +1,12 @@
+{
+  "image1": {
+    "row": 6.2,
+    "col": 9
+  },
+  "table1": {
+    "row": 6.6,
+    "col": 1,
+    "height": 8,
+    "width": 8
+  }
+}
