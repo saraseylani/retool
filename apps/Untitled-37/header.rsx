@@ -12,6 +12,7 @@
     name="header"
     pageUuid="7bf31b06-a277-11ef-9e90-437895025401"
   />
+  <Button id="button2" text="Button" />
   <Button id="button1" text="Button" />
   <Navigation
     id="navigation1"

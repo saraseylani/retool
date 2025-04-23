@@ -6,6 +6,13 @@
     "height": 1,
     "width": 2
   },
+  "button2": {
+    "subcontainer": "header",
+    "row": 7.6,
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
   "header1": {
     "subcontainer": "header",
     "row": 0.4,
