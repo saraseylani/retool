@@ -1,0 +1,143 @@
+id: identifyVendor
+type: datasource
+subtype: RetoolAIQuery
+resourceName: retool_ai
+resourceDisplayName: retool_ai
+template:
+  vectorNamespaceIds: []
+  vectorDynamicUrls: ''
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  vectorActionNamespaceDynamicModeEnabled: false
+  vectorCreateAndFetchDynamicModeEnabled: false
+  streamResponse: true
+  imageClassifierDynamicLabels: ''
+  lastReceivedFromResourceAt: null
+  vectorSemanticSearchString: ''
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  customTemperature: '1'
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  workflowRunId: null
+  showFailureToaster: true
+  vectorUrls: []
+  customSystemMessage: ''
+  textExtractorDynamicLabels: ''
+  imageExtractorLabels: []
+  query: ''
+  playgroundQueryUuid: ''
+  imageExtractorDynamicModeEnabled: false
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  workflowBlockUuid: null
+  model: gpt-4o-mini
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  defaultModelInitialized: true
+  providerId: retoolAIBuiltIn::openAI
+  textClassifierLabels: []
+  textClassifierDynamicModeEnabled: false
+  importedQueryInputs:
+    ordered: []
+  instruction: >-
+    Using {{getVendors.data}} select the {{getVendors.data.vendor_name}} that is
+    closest to drive to {{startTrigger.data.location}} and has an
+    available_quantity of {{getVendors.data.available_quantity}} greater than
+    quantity of {{startTrigger.data.quantity}}. Summarize this into name and
+    contact.
+  isImported: false
+  imageModel: dall-e-3
+  showSuccessToaster: true
+  fileUseDynamicSource: false
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  workflowActionType: null
+  textClassifierDynamicLabels: ''
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  embeddingModel: text-embedding-ada-002
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  chatInput: ''
+  rawData: null
+  vectorNamespaceId: ''
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  vectorDynamicNamespaces: ''
+  enableErrorTransformer: false
+  isHidden: false
+  imageExtractorDynamicLabels: ''
+  multimodalModel: gpt-4o
+  showLatestVersionUpdatedWarning: false
+  vectorActionDynamicNamespace: ''
+  dynamicModelName: ''
+  timestamp: 0
+  evalType: script
+  textExtractorDynamicModeEnabled: false
+  action: textGeneration
+  textExtractorLabels: []
+  importedQueryDefaults:
+    ordered: []
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  fileSource: ''
+  filterLabels: []
+  dynamicModelEnabled: false
+  systemMessage: You are a helpful assistant
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  content: ''
+  transformer: return data
+  events: []
+  vectorAction: upsertDocument
+  queryTimeout: '120000'
+  workflowId: null
+  vectorNamespacesDynamicModeEnabled: false
+  requireConfirmation: false
+  queryFailureConditions: ''
+  source: ''
+  imageClassifierLabels: []
+  imageClassifierDynamicModeEnabled: false
+  changesetIsObject: false
+  vectorModeEnabled: false
+  vectorNamespaceIdsFilters: []
+  providerName: openAI
+  enableCaching: false
+  allowedGroups: []
+  chatHistory: ''
+  imageContent: ''
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2024-08-23T16:12:03.114Z
+blockData:
+  top: 256
+  left: 1312
+  uuid: 6c862512-54f5-4883-81ae-88d6b547af81
+  pluginId: identifyVendor
+  blockType: default
+  editorType: RetoolAIQuery
+  resourceName: retool_ai
+  responsePanelState: open
+  incomingOnSuccessEdges:
+    - d2019834-addb-4602-a9e1-f7ef4a31889b
