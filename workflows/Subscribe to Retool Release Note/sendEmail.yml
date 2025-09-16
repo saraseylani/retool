@@ -1,0 +1,100 @@
+id: sendEmail
+type: datasource
+subtype: SMTPQuery
+resourceName: retool_email
+resourceDisplayName: retool_email
+template:
+  inReplyTo: ''
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  toEmail: sara@retool.com
+  streamResponse: false
+  body: '{{ summarizeChanges.data }}'
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  attachment: []
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  showCcBcc: false
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: ''
+  playgroundQueryUuid: ''
+  showReplyTo: false
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  subject: Retool Self-hosted version {{ Object.keys(fetchPosts.data)[0] }}
+  importedQueryInputs:
+    ordered: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  fromEmail: ''
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  isHidden: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults:
+    ordered: []
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  replyToEmail: ''
+  useRetoolAgentsSignature: false
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  bccEmail: ''
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  ccEmail: ''
+  bodyType: text
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-02-04T16:46:31.301Z
+blockData:
+  top: 48
+  left: 3008
+  uuid: 4ef76878-52d3-44b3-80bb-39b2a4310cad
+  pluginId: sendEmail
+  blockType: default
+  editorType: SMTPQuery
+  resourceName: retool_email
+  incomingOnSuccessEdges:
+    - 0a03e6b1-c1d4-4495-809d-66d4e66116af
