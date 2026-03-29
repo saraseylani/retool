@@ -1,0 +1,17 @@
+{
+  "image1": {
+    "container": "moduleContainer",
+    "row": 0,
+    "height": 5.8
+  },
+  "moduleContainer": {
+    "height": 12,
+    "width": 12
+  },
+  "text1": {
+    "container": "moduleContainer",
+    "row": 2.2,
+    "col": 4,
+    "height": 1
+  }
+}
